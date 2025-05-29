@@ -71,7 +71,9 @@
     "release:next": "chgstangeset publish --no-git-tags --snapshot --tag next",
     "version:next": "changeset version --snapshot next",
     "release": "changeset publish",
-    "version": "changeset version && yarn install --no-immutable"
+    "version": "changeset version && yarn install --no-immutable",
+    "create-packages": "./create-packages.sh",
+    "copy-packages": "./copy-packages.sh"
   },
   "dependencies": {
     "@changesets/changelog-github": "^0.4.8",

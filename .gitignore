@@ -30,3 +30,4 @@ dist/**
 
 # Cache File
 /packages/**/.cache
+*.tgz
