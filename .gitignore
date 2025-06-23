@@ -32,3 +32,5 @@ dist/**
 /packages/**/.cache
 *.tgz
 www
+medusa-deploy.zip
+copyMedusa.log
